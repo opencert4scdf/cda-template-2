@@ -1,5 +1,5 @@
 import { TemplateRegistry } from "@govtechsg/decentralized-renderer-react-components";
-import { templates } from "./coc";
+import { templates } from "./customTemplate";
 
 export const registry: TemplateRegistry<any> = {
   customTemplate: templates
