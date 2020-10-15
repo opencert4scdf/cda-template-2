@@ -9,7 +9,6 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
 }
 
 export const customTemplateCertificate: CustomTemplateCertificate = {
-  {
   "id": "53b75bbe",
   "name": "FIRE SAFETY",
   "description": "78th Fire Safety Manager Course",
@@ -51,5 +50,4 @@ export const customTemplateCertificate: CustomTemplateCertificate = {
     {
       "name": "Transcript",
       "transcripttext": "Dzikril was a very good student who paid consistent attention in class."
-    }
 };
