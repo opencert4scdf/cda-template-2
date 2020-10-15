@@ -31,7 +31,7 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
     score: string;
     transcripttext: string;
     },
-    ]
+  ]
 }
 
 export const customTemplateCertificate: CustomTemplateCertificate = {
