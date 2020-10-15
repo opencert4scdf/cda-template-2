@@ -1,9 +1,22 @@
 import { v2 } from "@govtechsg/decentralized-renderer-react-components";
 
 export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
+  id: string;
   name: string;
+  description: string;
+  issuedOn: string;
+  admissionDate: string;
+  graduationDate: string;
   recipient: {
     name: string;
+    nric: string;
+    course: string;
+  };
+  transcript: {
+    name: string;
+    grade: string;
+    score: string;
+    transcripttext: string;
   };
 }
 
