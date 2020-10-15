@@ -9,19 +9,47 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
 }
 
 export const customTemplateCertificate: CustomTemplateCertificate = {
-  name: "John Doe",
-  institute: "Institute of John Doe",
-  issuers: [
+  {
+  "id": "53b75bbe",
+  "name": "FIRE SAFETY",
+  "description": "78th Fire Safety Manager Course",
+  "issuedOn": "2019-05-29T00:00:00+08:00",
+  "admissionDate": "2019-05-29T00:00:00+08:00",
+  "graduationDate": "2019-05-29T00:00:00+08:00",
+  "$template": {
+    "name": "customTemplate",
+    "type": "EMBEDDED_RENDERER",
+    "url": "https://cranky-lichterman-c839bb.netlify.app/"
+  },
+  "issuers": [
     {
-      name: "institute of blockchain"
+      "name": "Civil Defence Academy, Singapore Civil Defence Force",
+      "url": "https://scdf.gov.sg",
+      "documentStore": "0xD5d216E4E205E966c901BFefABbE065F108Bb403",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "proud-brown-newt.sandbox.openattestation.com"
+      }
     }
   ],
-  $template: {
-    name: "custom",
-    type: v2.TemplateType.EmbeddedRenderer,
-    url: "https://cranky-lichterman-c839bb.netlify.app/"
+  "recipient": {
+    "name": "Dzikril",
+    "nric": "SXXXXXXXY",
+    "course": "Fire Safety Manager Course"
   },
-  foo: {
-    title: "Bar is awesome"
-  }
+  "transcript": [
+    {
+      "name": "Paper 1",
+      "grade": "C",
+      "score": "66"
+    },
+    {
+      "name": "Project",
+      "grade": "D",
+      "score": "59"
+    },
+    {
+      "name": "Transcript",
+      "transcripttext": "Dzikril was a very good student who paid consistent attention in class."
+    }
 };
