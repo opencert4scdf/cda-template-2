@@ -16,7 +16,7 @@ export const customTemplateCertificate: CustomTemplateCertificate = {
   "graduationDate": "2019-05-29T00:00:00+08:00",
   "$template": {
     "name": "customTemplate",
-    "type": "EMBEDDED_RENDERER",
+    "type": v2.TemplateType.EmbeddedRenderer,
     "url": "https://cranky-lichterman-c839bb.netlify.app/"
   },
   "issuers": [
