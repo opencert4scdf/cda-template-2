@@ -12,6 +12,17 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
     nric: string;
     course: string;
   };
+  issuers: [
+    {
+      name: string;
+      url: string;
+      documentStore: string;
+      identityProof: {
+        type: v2.IdentityProofType.DNSTxt,
+        location: string
+      }
+    }
+  ];
   transcript: [
     {
     name: string;
