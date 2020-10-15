@@ -50,4 +50,6 @@ export const customTemplateCertificate: CustomTemplateCertificate = {
     {
       "name": "Transcript",
       "transcripttext": "Dzikril was a very good student who paid consistent attention in class."
+    }
+  ]
 };
