@@ -19,6 +19,18 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
     score: string;
     transcripttext: string;
     },
+    {
+    name: string;
+    grade: string;
+    score: string;
+    transcripttext: string;
+    },
+    {
+    name: string;
+    grade: string;
+    score: string;
+    transcripttext: string;
+    },
     ]
 }
 
