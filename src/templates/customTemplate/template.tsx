@@ -17,7 +17,7 @@ const containerStyle = css`
 `;
 
 export const CocTemplate: FunctionComponent<
-  TemplateProps<CocTemplateCertificate> & { className?: string }
+  TemplateProps<customTemplateCertificate> & { className?: string }
 > = ({ document, className = "" }) => {
   return (
     <div css={containerStyle} className={className} id="custom-template">
