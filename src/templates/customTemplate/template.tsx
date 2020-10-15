@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
 import { css } from "@emotion/core";
-import { CocTemplateCertificate } from "../samples/customTemplateSample";
+import { customTemplateCertificate } from "../samples/customTemplateSample";
 
 const containerStyle = css`
   height: 3508px;
