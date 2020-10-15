@@ -38,7 +38,7 @@ export const customTemplateCertificate: CustomTemplateCertificate = {
       "url": "https://scdf.gov.sg",
       "documentStore": "0xD5d216E4E205E966c901BFefABbE065F108Bb403",
       "identityProof": {
-        "type": "v2.IdentityProofType.DNSTxt",
+        "type": v2.IdentityProofType.DNSTxt,
         "location": "proud-brown-newt.sandbox.openattestation.com"
       }
     }
