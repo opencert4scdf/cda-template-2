@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@govtechsg/decentralized-renderer-react-components";
 import { css } from "@emotion/core";
-import { customTemplateCertificate } from "../samples/customTemplateSample";
+import { CustomTemplateCertificate } from "../samples/customTemplateSample";
 
 const containerStyle = css`
   height: 3508px;
@@ -17,7 +17,7 @@ const containerStyle = css`
 `;
 
 export const CocTemplate: FunctionComponent<
-  TemplateProps<customTemplateCertificate> & { className?: string }
+  TemplateProps<CustomTemplateCertificate> & { className?: string }
 > = ({ document, className = "" }) => {
   return (
     <div css={containerStyle} className={className} id="custom-template">
