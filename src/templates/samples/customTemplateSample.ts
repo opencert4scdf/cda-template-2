@@ -17,18 +17,14 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
     name: string;
     grade: string;
     score: string;
-    transcripttext: string;
     },
     {
     name: string;
     grade: string;
     score: string;
-    transcripttext: string;
     },
     {
     name: string;
-    grade: string;
-    score: string;
     transcripttext: string;
     },
   ]
