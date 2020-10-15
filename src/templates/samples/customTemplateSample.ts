@@ -12,12 +12,14 @@ export interface CustomTemplateCertificate extends v2.OpenAttestationDocument {
     nric: string;
     course: string;
   };
-  transcript: {
+  transcript: [
+    {
     name: string;
     grade: string;
     score: string;
     transcripttext: string;
-  };
+    };
+    ]
 }
 
 export const customTemplateCertificate: CustomTemplateCertificate = {
